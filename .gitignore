@@ -1,1 +1,10 @@
+# Credentials (Wi-Fi, Blynk token, ThingSpeak key) — never commit
 secrets.h
+**/secrets.h
+
+# Arduino / editor build output
+build/
+*.bin
+*.elf
+.vscode/
+.DS_Store
